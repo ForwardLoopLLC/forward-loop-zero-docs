@@ -3,11 +3,9 @@ box:
 
 build:
     steps:
-        - install-packages:
-            packages: doxygen
         - pip-install:
             requirements_file: ""
-            packages_list: "sphinx breathe sphinx-tabs awscli"
+            packages_list: "sphinx sphinx-tabs awscli"
         - script:
             name: build documentation
             code: |

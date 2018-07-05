@@ -95,7 +95,7 @@ device only to allow SSH authenticated with a key. In order to do this, we
 recommend you follow the `floop Target Operating System Guide <https://docs.forward-loop.com/floopcli/master/intro/os.html#configuring-a-target-operating-system-to-meet-minimum-requirements>`_
 
 Enable GPIO, UART, SPI, I2C
---------------------------
+---------------------------
 **When you purchase Forward Loop Zero with optional sensors and/or networking hardware, your Forward Loop Zero arrives already configured to work with your chosen hardware.**
 
 If you want to use your Forward Loop Zero board with different sensors or hardware than those you ordered with your board, you may need to change some operating system settings in order to enable the other hardware. As a rule, Forward Loop Zero boards only come enabled with the minimum hardware necessary for full functionality with the sensors and hardware you ordered.
