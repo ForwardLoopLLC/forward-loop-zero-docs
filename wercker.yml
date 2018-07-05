@@ -12,7 +12,7 @@ build:
                 cd docs && \
                 make html && \
                 cd .. && \
-                mkdir -p sync/forward-loop-zero/ && \
+                mkdir -p sync/ && \
                 cp -r docs/build/html/ sync/forward-loop-zero/ && \
                 ls -R sync/
                 #        - script:
