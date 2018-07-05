@@ -12,9 +12,9 @@ build:
                 cd docs && \
                 make html && \
                 cd .. && \
-                mkdir -p sync/$WERCKER_GIT_REPOSITORY/ && \
-                cp -r docs/build/html/ sync/$WERCKER_GIT_REPOSITORY/$WERCKER_GIT_BRANCH/ && \
-                ls sync/$WERCKER_GIT_REPOSITORY/$WERCKER_GIT_BRANCH/
+                mkdir -p sync/forward-loop-zero/ && \
+                cp -r docs/build/html/ sync/forward-loop-zero/ && \
+                ls -R sync/
                 #        - script:
                 #            name: push documentation
                 #            code: |
