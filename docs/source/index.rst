@@ -25,12 +25,9 @@ Getting Started
 :doc:`intro/setup`
     Configure your Forward Loop Zero for the first time
 
-:doc:`intro/best`
-    Best practices for using Forward Loop Zero as the hardware solution for your products
-
 Sample Use Cases and Applications
 ---------------------------------
-`Long-range Temperature Sensor <>`_
+`Long-range Temperature Sensor <../gallery/long-range-temperature-sensor/index.html>`_
     Use the grid-eye and long-range infrared sensors to measure temperature at a distance
 
 Ecosystem Support
